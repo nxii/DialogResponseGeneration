@@ -2536,7 +2536,7 @@ if __name__ == '__main__':
     
     parser = argparse.ArgumentParser()
     parser.add_argument('--device', type=int, default=0)
-    parser.add_argument('--dataset', type=str, choices=['DailyDialog', 'SWDA', 'ROCStories', 'Taskmaster-2'], default='DailyDialog')
+    parser.add_argument('--dataset', type=str, choices=['DailyDialog', 'SWDA'], default='DailyDialog')
     parser.add_argument('--data_path', type=str, default="data")
     parser.add_argument('--exp_path', type=str, default="experiments")
     parser.add_argument('--model', type=str, required=True)
