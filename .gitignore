@@ -1,0 +1,10 @@
+data/DailyDialog/**
+data/SWDA/**
+data/ROCStories/*
+data/Taskmaster-2/*
+embeddings/glove/**
+embeddings/word2vec/**
+__pycache__
+experiments/**
+experiments.bak/
+outputs/**
